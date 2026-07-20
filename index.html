@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ECVA Tournament Control Center</title>
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <strong>ECVA</strong>
+        <span>Tournament Control Center</span>
+      </div>
+      <nav id="primaryNav" aria-label="Primary navigation"></nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">Technology Department</p>
+          <h1 id="pageTitle">Readiness Dashboard</h1>
+        </div>
+        <button id="exportButton" type="button">Export Progress</button>
+      </header>
+
+      <section id="dashboard" class="dashboard-grid" aria-live="polite"></section>
+      <section id="workflow" class="workflow"></section>
+    </main>
+  </div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
