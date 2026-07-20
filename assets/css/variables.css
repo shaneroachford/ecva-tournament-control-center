@@ -1,0 +1,17 @@
+:root {
+  --color-navy: #10263f;
+  --color-blue: #1769aa;
+  --color-sky: #eaf4fb;
+  --color-green: #248a5a;
+  --color-amber: #b7791f;
+  --color-red: #b42318;
+  --color-text: #1d2939;
+  --color-muted: #667085;
+  --color-border: #d0d5dd;
+  --color-surface: #ffffff;
+  --color-background: #f5f7fa;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --shadow-sm: 0 2px 8px rgba(16, 38, 63, 0.08);
+  --sidebar-width: 280px;
+}
