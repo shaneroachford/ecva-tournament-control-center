@@ -9,79 +9,377 @@
           "id": "awarded",
           "name": "Tournament Awarded",
           "workstreams": [
-            {"id":"website-awarded","name":"Website","department":"website","tasks":["Publish tournament page with host, dates and venue","Upload tournament logo","Upload regulations","Upload registration documents"]},
-            {"id":"vis-awarded","name":"VIS & Statistics","department":"vis","tasks":["Coordinate VIS registration opening with FIVB","Confirm registration access and deadlines","Publish registration announcement"]},
-            {"id":"technical-awarded","name":"Technical Operations","department":"technical","tasks":["Create tournament technology workspace","Create Google Drive folder structure","Create contacts and responsibility register"]}
+            {
+              "id": "website-awarded",
+              "name": "Website",
+              "department": "website",
+              "tasks": [
+                "Publish tournament page with host, dates and venue",
+                "Upload tournament logo",
+                "Upload regulations",
+                "Upload registration documents"
+              ]
+            },
+            {
+              "id": "vis-awarded",
+              "name": "VIS & Statistics",
+              "department": "vis",
+              "tasks": [
+                "Coordinate VIS registration opening with FIVB",
+                "Confirm registration access and deadlines",
+                "Publish registration announcement"
+              ]
+            },
+            {
+              "id": "technical-awarded",
+              "name": "Technical Operations",
+              "department": "technical",
+              "tasks": [
+                "Create tournament technology workspace",
+                "Create Google Drive folder structure",
+                "Create contacts and responsibility register"
+              ]
+            }
           ]
         },
         {
           "id": "90-days",
           "name": "90 Days",
           "workstreams": [
-            {"id":"broadcast-90","name":"Broadcast","department":"broadcast","tasks":["Confirm streamed courts","Draft production architecture","Identify internet and power requirements"]},
-            {"id":"technical-90","name":"Technical Operations","department":"technical","tasks":["Request venue technical information","Draft equipment requirements","Identify technical staffing requirements"]}
+            {
+              "id": "broadcast-90",
+              "name": "Broadcast",
+              "department": "broadcast",
+              "tasks": [
+                "Confirm streamed courts",
+                "Draft production architecture",
+                "Identify internet and power requirements"
+              ]
+            },
+            {
+              "id": "technical-90",
+              "name": "Technical Operations",
+              "department": "technical",
+              "tasks": [
+                "Request venue technical information",
+                "Draft equipment requirements",
+                "Identify technical staffing requirements"
+              ]
+            }
           ]
         },
         {
           "id": "60-days",
           "name": "60 Days",
           "workstreams": [
-            {"id":"broadcast-60","name":"Broadcast","department":"broadcast","tasks":["Build initial OBS project","Prepare scoreboard and sponsor asset requirements","Confirm recording and archive workflow"]},
-            {"id":"vis-60","name":"VIS & Statistics","department":"vis","tasks":["Monitor team registration","Confirm statistician and VIS delegate","Draft workstation requirements"]}
+            {
+              "id": "broadcast-60",
+              "name": "Broadcast",
+              "department": "broadcast",
+              "tasks": [
+                "Build initial OBS project",
+                "Prepare scoreboard and sponsor asset requirements",
+                "Confirm recording and archive workflow"
+              ]
+            },
+            {
+              "id": "vis-60",
+              "name": "VIS & Statistics",
+              "department": "vis",
+              "tasks": [
+                "Monitor team registration",
+                "Confirm statistician and VIS delegate",
+                "Draft workstation requirements"
+              ]
+            }
           ]
         },
         {
           "id": "30-days",
           "name": "30 Days",
           "workstreams": [
-            {"id":"competition-30","name":"Competition Handoff","department":"technical","tasks":["Receive finalized tournament format","Receive finalized match schedule"]},
-            {"id":"website-30","name":"Website","department":"website","tasks":["Publish pools after format approval","Publish match schedule","Update tournament landing page"]}
+            {
+              "id": "competition-30",
+              "name": "Competition Handoff",
+              "department": "technical",
+              "tasks": [
+                "Receive finalized tournament format",
+                "Receive finalized match schedule"
+              ]
+            },
+            {
+              "id": "website-30",
+              "name": "Website",
+              "department": "website",
+              "tasks": [
+                "Publish pools after format approval",
+                "Publish match schedule",
+                "Update tournament landing page"
+              ]
+            }
           ]
         },
         {
           "id": "14-days",
           "name": "14 Days",
           "workstreams": [
-            {"id":"broadcast-14","name":"Broadcast","department":"broadcast","tasks":["Complete OBS scenes and overlays","Load approved sponsor graphics","Confirm stream destinations and credentials"]},
-            {"id":"technical-14","name":"Technical Operations","department":"technical","tasks":["Finalize packing list","Assign technical staff roles","Confirm local transport and secure storage"]}
+            {
+              "id": "broadcast-14",
+              "name": "Broadcast",
+              "department": "broadcast",
+              "tasks": [
+                "Complete OBS scenes and overlays",
+                "Load approved sponsor graphics",
+                "Confirm stream destinations and credentials"
+              ]
+            },
+            {
+              "id": "technical-14",
+              "name": "Technical Operations",
+              "department": "technical",
+              "tasks": [
+                "Finalize packing list",
+                "Assign technical staff roles",
+                "Confirm local transport and secure storage"
+              ]
+            }
           ]
         },
         {
           "id": "7-days",
           "name": "7 Days",
           "workstreams": [
-            {"id":"all-7","name":"Final Readiness","department":"technical","tasks":["Complete equipment bench test","Confirm final team and match data","Distribute technical contact sheet","Confirm venue access schedule"]}
+            {
+              "id": "all-7",
+              "name": "Final Readiness",
+              "department": "technical",
+              "tasks": [
+                "Complete equipment bench test",
+                "Confirm final team and match data",
+                "Distribute technical contact sheet",
+                "Confirm venue access schedule"
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "id":"setup",
-      "name":"Setup & Testing",
-      "milestones":[
-        {"id":"3-days","name":"3 Days","workstreams":[{"id":"venue-3","name":"Venue Installation","department":"technical","tasks":["Inspect production positions","Install network and power distribution","Stage cameras and production equipment"]}]},
-        {"id":"2-days","name":"2 Days","workstreams":[{"id":"systems-2","name":"Systems Testing","department":"technical","tasks":["Test internet redundancy","Test VIS workstations","Test OBS scenes and recording"]}]},
-        {"id":"1-day","name":"1 Day","workstreams":[{"id":"bulletin-1","name":"Website & Bulletins","department":"website","tasks":["Publish Bulletin #1","Verify pools, schedule and team information","Complete public website review"]}]},
-        {"id":"rehearsal","name":"Technical Rehearsal","workstreams":[{"id":"rehearsal-all","name":"Integrated Rehearsal","department":"technical","tasks":["Run simulated match workflow","Validate broadcast and VIS handoffs","Record and resolve rehearsal defects"]}]}
+      "id": "setup",
+      "name": "Setup & Testing",
+      "milestones": [
+        {
+          "id": "3-days",
+          "name": "3 Days",
+          "workstreams": [
+            {
+              "id": "venue-3",
+              "name": "Venue Installation",
+              "department": "technical",
+              "tasks": [
+                "Inspect production positions",
+                "Install network and power distribution",
+                "Stage cameras and production equipment"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2-days",
+          "name": "2 Days",
+          "workstreams": [
+            {
+              "id": "systems-2",
+              "name": "Systems Testing",
+              "department": "technical",
+              "tasks": [
+                "Test internet redundancy",
+                "Test VIS workstations",
+                "Test OBS scenes and recording"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1-day",
+          "name": "1 Day",
+          "workstreams": [
+            {
+              "id": "bulletin-1",
+              "name": "Website & Bulletins",
+              "department": "website",
+              "tasks": [
+                "Publish Bulletin #1",
+                "Verify pools, schedule and team information",
+                "Complete public website review"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rehearsal",
+          "name": "Technical Rehearsal",
+          "workstreams": [
+            {
+              "id": "rehearsal-all",
+              "name": "Integrated Rehearsal",
+              "department": "technical",
+              "tasks": [
+                "Run simulated match workflow",
+                "Validate broadcast and VIS handoffs",
+                "Record and resolve rehearsal defects"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "id":"operations",
-      "name":"Operations",
-      "milestones":[
-        {"id":"daily-opening","name":"Daily Opening","workstreams":[{"id":"opening-all","name":"Opening Checks","department":"technical","tasks":["Power and network checks","Open VIS systems","Open broadcast systems","Verify website and daily schedule"]}]},
-        {"id":"between-matches","name":"Between Matches","workstreams":[{"id":"between-all","name":"Match Turnaround","department":"technical","tasks":["Confirm next match data","Reset graphics and score systems","Verify recording files","Publish approved results"]}]},
-        {"id":"end-day","name":"End of Day","workstreams":[{"id":"end-all","name":"Daily Close","department":"technical","tasks":["Back up recordings and VIS data","Publish daily bulletin","Secure equipment","Record incidents and unresolved issues"]}]}
+      "id": "operations",
+      "name": "Operations",
+      "milestones": [
+        {
+          "id": "daily-opening",
+          "name": "Daily Opening",
+          "workstreams": [
+            {
+              "id": "opening-all",
+              "name": "Opening Checks",
+              "department": "technical",
+              "tasks": [
+                "Power and network checks",
+                "Open VIS systems",
+                "Open broadcast systems",
+                "Verify website and daily schedule"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "between-matches",
+          "name": "Between Matches",
+          "workstreams": [
+            {
+              "id": "between-all",
+              "name": "Match Turnaround",
+              "department": "technical",
+              "tasks": [
+                "Confirm next match data",
+                "Reset graphics and score systems",
+                "Verify recording files",
+                "Publish approved results"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "end-day",
+          "name": "End of Day",
+          "workstreams": [
+            {
+              "id": "end-all",
+              "name": "Daily Close",
+              "department": "technical",
+              "tasks": [
+                "Back up recordings and VIS data",
+                "Publish daily bulletin",
+                "Secure equipment",
+                "Record incidents and unresolved issues"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "id":"wrapup",
-      "name":"Wrap-up",
-      "milestones":[
-        {"id":"archive","name":"Archive","workstreams":[{"id":"archive-all","name":"Digital Archive","department":"technical","tasks":["Archive broadcast recordings","Archive VIS files","Archive bulletins and website assets"]}]},
-        {"id":"equipment","name":"Equipment","workstreams":[{"id":"equipment-all","name":"Equipment Closeout","department":"technical","tasks":["Complete equipment inventory","Record damage or missing items","Return equipment to storage"]}]},
-        {"id":"lessons","name":"Lessons Learned","workstreams":[{"id":"lessons-all","name":"Review","department":"technical","tasks":["Conduct technology debrief","Document workflow improvements","Update standards and templates"]}]},
-        {"id":"reports","name":"Final Reports","workstreams":[{"id":"reports-all","name":"Reporting","department":"technical","tasks":["Prepare technical report","Prepare broadcast delivery summary","Prepare VIS and website closeout summary"]}]}
+      "id": "wrapup",
+      "name": "Wrap-up",
+      "milestones": [
+        {
+          "id": "archive",
+          "name": "Archive",
+          "workstreams": [
+            {
+              "id": "archive-all",
+              "name": "Digital Archive",
+              "department": "technical",
+              "tasks": [
+                "Archive broadcast recordings",
+                "Archive VIS files",
+                "Archive bulletins and website assets"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "equipment",
+          "name": "Equipment",
+          "workstreams": [
+            {
+              "id": "equipment-all",
+              "name": "Equipment Closeout",
+              "department": "technical",
+              "tasks": [
+                "Complete equipment inventory",
+                "Record damage or missing items",
+                "Return equipment to storage"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lessons",
+          "name": "Lessons Learned",
+          "workstreams": [
+            {
+              "id": "lessons-all",
+              "name": "Review",
+              "department": "technical",
+              "tasks": [
+                "Conduct technology debrief",
+                "Document workflow improvements",
+                "Update standards and templates"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reports",
+          "name": "Final Reports",
+          "workstreams": [
+            {
+              "id": "reports-all",
+              "name": "Reporting",
+              "department": "technical",
+              "tasks": [
+                "Prepare technical report",
+                "Prepare broadcast delivery summary",
+                "Prepare VIS and website closeout summary"
+              ]
+            },
+            {
+              "id": "media-communications",
+              "name": "Media & Communications",
+              "department": "website",
+              "tasks": [
+                "Collect tournament statistics",
+                "Collect final medal standings",
+                "Collect award winners",
+                "Select best match photos",
+                "Select highlight videos",
+                "Draft post-tournament media report",
+                "Obtain Technical Delegate approval if required",
+                "Publish media report on ecvolleyball.com",
+                "Publish media report on Facebook",
+                "Publish media report on Instagram",
+                "Organize Twitch VODs and highlights",
+                "Upload final photo gallery",
+                "Upload highlight reel",
+                "Verify all published links"
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
